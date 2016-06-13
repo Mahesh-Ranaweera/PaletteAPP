@@ -19,7 +19,7 @@ function createWindow() {
         height: 600,
         title: "PalletAPP",
         icon: 'assets/img/logo.png', //custom logo location
-        resizable: false
+        //resizable: false
     });
 
     win.setMenuBarVisibility(false);
