@@ -274,3 +274,10 @@
     color: rgba(0, 0, 0, 0.84);
     background-color: rgba(0, 0, 0, 0.32);
 }
+
+.app-header-txt {
+    line-height: 50px;
+    font-size: 22px;
+    text-indent: 5px;
+    color: #212F3C;
+}

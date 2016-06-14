@@ -79,3 +79,11 @@ a.hover {
     color: rgba(0, 0, 0, 0.4);
     background-color: rgba(0, 0, 0, 0.01);
 }
+
+#app-logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    float: left;
+    background: url(../assets/svg/app_logo.svg) no-repeat;
+}
