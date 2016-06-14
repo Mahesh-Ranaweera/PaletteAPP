@@ -4,7 +4,7 @@
     https://github.com/mi6softlab
     www.mi6softlab.com
     
-    <PalletApp>
+    <PaleteApp>
     <June 13,2016>
     <1.0.0>
 -->
@@ -12,20 +12,27 @@
 <html>
 
 <head>
-    <title>PalletAPP</title>
+    <title>PaletteAPP</title>
 
     <meta charset="UTF-8">
-    <meta name="description" content="palletAPP">
+    <meta name="description" content="paletteAPP">
     <meta name="author" content="mi6softlab">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="icon" type="image/png" href="assets/img/favicon_16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="assets/img/favicon_32x32.png" sizes="32x32">
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
     <script src="js/jquery-3.0.0.js" onload="window.$ = window.jQuery = module.exports;"></script>
 
 </head>
 
 <body>
     <!--app-header-->
-    <div id="app-header"></div>
+    <div id="app-header">
+       <div id="app-logo"></div>
+        <div class="app-header-txt">PaletteAPP</div>
+    </div>
     
     <!--color-box-->
     <div id="app-color-box-wrapper">
@@ -33,24 +40,24 @@
         <div id="app-color-box">
            <div class="app-color-dark-ribbon"></div>
             <div class="app-color-swatcher" id="color1">
-                <div class="app-color-hex-txt" id="color1-hextxt">#ffffff</div>
-                <div class="app-color-rgb-txt" id="color1-rgbtxt">rgba(250, 250, 250)</div>
+                <div class="app-color-hex-txt" id="color1-hextxt"></div>
+                <div class="app-color-rgb-txt" id="color1-rgbtxt"></div>
             </div>
             <div class="app-color-swatcher" id="color2">
-                <div class="app-color-hex-txt" id="color2-hextxt">#ffffff</div>
-                <div class="app-color-rgb-txt" id="color2-rgbtxt">rgba(250, 250, 250)</div>
+                <div class="app-color-hex-txt" id="color2-hextxt"></div>
+                <div class="app-color-rgb-txt" id="color2-rgbtxt"></div>
             </div>
             <div class="app-color-swatcher" id="color3">
-                <div class="app-color-hex-txt" id="color3-hextxt">#ffffff</div>
-                <div class="app-color-rgb-txt" id="color3-rgbtxt">rgba(250, 250, 250)</div>
+                <div class="app-color-hex-txt" id="color3-hextxt"></div>
+                <div class="app-color-rgb-txt" id="color3-rgbtxt"></div>
             </div>
             <div class="app-color-swatcher" id="color4">
-                <div class="app-color-hex-txt" id="color4-hextxt">#ffffff</div>
-                <div class="app-color-rgb-txt" id="color4-rgbtxt">rgba(250, 250, 250)</div>
+                <div class="app-color-hex-txt" id="color4-hextxt"></div>
+                <div class="app-color-rgb-txt" id="color4-rgbtxt"></div>
             </div>
             <div class="app-color-swatcher" id="color5">
-                <div class="app-color-hex-txt" id="color5-hextxt">#ffffff</div>
-                <div class="app-color-rgb-txt" id="color5-rgbtxt">rgba(250, 250, 250)</div>
+                <div class="app-color-hex-txt" id="color5-hextxt"></div>
+                <div class="app-color-rgb-txt" id="color5-rgbtxt"></div>
             </div>
             <div class="app-color-dark-ribbon-bottom">
             </div>
@@ -60,7 +67,7 @@
     <!--color content-->
     <div id="app-color-content-wrapper">
         <div id="app-color-content">
-           <!--color pallet display here-->
+           <!--color palette display here-->
             
             
             <!--
@@ -77,6 +84,9 @@
 
         </div>
     </div>
+    
+    <!--designer-->
+    <div id="designer"><a href="http://www.mi6softlab.com/">mi6softlab</a></div>
    
     <!--screen size indicator for responsive-->
     <div id="screen-size"></div>

@@ -18,9 +18,12 @@ var colorArray = [['#16A085', '#1ABC9C', '#27AE60', '#2ECC71', '#2980B9'],
                   ['#212F3C', '#283747', '#2E4053', '#34495E', '#5D6D7E'],
                   ['#17202A', '#1C2833', '#212F3D', '#273746', '#2C3E50'],
                   ['#641E16', '#7B241C', '#922B21', '#A93226', '#C0392B'],
-                  ['#512E5F', '#633974', '#76448A', '#884EA0', '#9B59B6']];
+                  ['#512E5F', '#633974', '#76448A', '#884EA0', '#9B59B6'],
+                  ['#641E16', '#78281F', '#512E5F', '#4A235A', '#5B2C6F'],
+                  ['#F9EBEA', '#FDEDEC', '#F5EEF8', '#F4ECF7', '#EAF2F8'],
+                  ['#1B4F72', '#1A5276', '#1F618D', '#2471A3', '#2980B9']];
 
-function colorPallet() {
+function colorPalette() {
     var colorOut = document.getElementById('app-color-content');
     var index = 0;
 
@@ -107,4 +110,4 @@ function hexToRgba(hex){
 }
 
 defaultColor();
-colorPallet();
+colorPalette();
