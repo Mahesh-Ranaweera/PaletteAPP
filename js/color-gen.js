@@ -23,7 +23,7 @@ var colorArray = [['#16A085', '#1ABC9C', '#27AE60', '#2ECC71', '#2980B9'],
                   ['#F9EBEA', '#FDEDEC', '#F5EEF8', '#F4ECF7', '#EAF2F8'],
                   ['#1B4F72', '#1A5276', '#1F618D', '#2471A3', '#2980B9']];
 
-function colorPallet() {
+function colorPalette() {
     var colorOut = document.getElementById('app-color-content');
     var index = 0;
 
@@ -110,4 +110,4 @@ function hexToRgba(hex){
 }
 
 defaultColor();
-colorPallet();
+colorPalette();
