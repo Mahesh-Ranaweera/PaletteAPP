@@ -11,11 +11,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #000;
     
-    background: url(../assets/img/bg-wrapper.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: url(../assets/img/bg-repeat.png) repeat;
 }
 a {
     color: #2196f3;
